@@ -2,6 +2,7 @@ package day07_JUnit_dropDown;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -14,10 +14,10 @@ import java.time.Duration;
 
 public class C01_BeforeAfterClass {
 
-    //2) https://www.youtube.com adresine gidin
-    //3) Aşağıdaki adları kullanarak 4 test metodu oluşturun ve gerekli testleri yapin
-    // ○ titleTest  => Sayfa başlığının “YouTube” oldugunu test edin
-    // ○ imageTest  => YouTube resminin görüntülendiğini (isDisplayed()) test edin
+    //2) go to https://www.youtube.com
+    //3) create 4 test method with names below and execute tests. Aşağıdaki adları kullanarak 4 test metodu oluşturun ve gerekli testleri yapin
+    // ○ titleTest  => execute a test about title is youtube Sayfa başlığının “YouTube” oldugunu test edin
+    // ○ imageTest  => execute a test about that Youtube image is displayed. YouTube resminin görüntülendiğini (isDisplayed()) test edin
     // ○ Search Box ’in erisilebilir oldugunu test edin (isEnabled())
     // ○ wrongTitleTest => Sayfa basliginin “youtube” olmadigini dogrulayin
     static WebDriver driver;
